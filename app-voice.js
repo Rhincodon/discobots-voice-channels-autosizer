@@ -26,8 +26,6 @@ function removeUnusedChannels(categoryChannels) {
             countChannels -= 1;
             return false;
         }
-
-        return true;
     });
 
     return deletedIds;
